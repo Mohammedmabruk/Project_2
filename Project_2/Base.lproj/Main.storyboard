@@ -24,7 +24,7 @@
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="DVV-ML-gjd">
                                 <rect key="frame" x="70" y="729" width="250" height="31"/>
-                                <color key="tintColor" red="0.73099846020000003" green="0.19914045459999999" blue="0.25188275989999998" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <color key="tintColor" red="0.96848052740000001" green="0.57665776329999996" blue="0.51966061210000003" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" image="list.dash" catalog="system"/>
                                 <connections>
