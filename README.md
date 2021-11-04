@@ -2,7 +2,7 @@
 
  Description :
 -
-Simple App to do list in 
+Simple App to do list :
 
 As user you can 
 Insert Tasks
