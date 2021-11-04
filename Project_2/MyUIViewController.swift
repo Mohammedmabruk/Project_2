@@ -38,13 +38,13 @@ class MyUIViewController: UIViewController,UITableViewDelegate,UITableViewDataSo
     override func viewDidLoad() {
         super.viewDidLoad()
         
-//        let Text1 = UserDefaults.standard.object(forKey: "textName")
-//        textName.text = Text1 as? String
+      // let Text1 = UserDefaults.standard.object(forKey: "textName")
+      // textName.text = Text1 as? String
         tableV.dataSource = self
         tableV.delegate = self
         
 
-        // Do any additional setup after loading the view.
+       // Do any additional setup after loading the view.
     }
     
     @IBAction func butEd(_ sender: Any) {
@@ -81,7 +81,7 @@ class MyUIViewController: UIViewController,UITableViewDelegate,UITableViewDataSo
     }
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         let editVC = storyboard?.instantiateViewController(withIdentifier: "Edit ID") as! EditViewController
-        editVC.noteTitle = list.items[indexPath.row].title
+        editVC.textTitle = list.items[indexPath.row].title
         editVC.indexPath = indexPath.row
         editVC.delegate = self
         navigationController?.pushViewController(editVC, animated: true)

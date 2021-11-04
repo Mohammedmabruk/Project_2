@@ -33,7 +33,7 @@
                             </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="DVV-ML-gjd" secondAttribute="trailing" constant="70" id="MOd-jc-vx0"/>
                             <constraint firstItem="hdk-Dd-82L" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="jCD-fo-Jh2"/>
@@ -49,7 +49,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-1280" y="52.606635071090047"/>
+            <point key="canvasLocation" x="-1180" y="46"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="STS-Mg-Rz5">
@@ -103,6 +103,7 @@
                             <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="-1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="-1" estimatedSectionFooterHeight="-1" translatesAutoresizingMaskIntoConstraints="NO" id="g2j-TM-u2v">
                                 <rect key="frame" x="0.0" y="138" width="390" height="557"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <color key="separatorColor" red="0.73099846020000003" green="0.2113928984" blue="0.2742062361" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <prototypes>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="myCell" id="9og-uJ-c7K">
                                         <rect key="frame" x="0.0" y="44.666666030883789" width="390" height="43.666667938232422"/>
@@ -188,7 +189,7 @@
                     </view>
                     <connections>
                         <outlet property="labV" destination="x1u-JK-72U" id="54J-mQ-5sV"/>
-                        <outlet property="noText" destination="6j1-ng-eER" id="Fwc-4A-RZB"/>
+                        <outlet property="textF" destination="6j1-ng-eER" id="eds-Or-jLh"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="vIG-C8-SRq" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
